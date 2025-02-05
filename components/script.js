@@ -32,3 +32,7 @@ johnBMI = johnmass / (johnheight * johnheight);
 console.log(johnBMI);
 const markHigherBMI = marksBMI > johnBMI;
 console.log(markHigherBMI);
+
+if ((age = 18)) {
+  console.log();
+}
