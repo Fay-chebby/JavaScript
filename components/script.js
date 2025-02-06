@@ -1,5 +1,3 @@
-const { loadPreset } = require("@babel/core/lib/config/files");
-
 let js = "amazing";
 if (js === " amazing") alert("javascript is fun!");
 10 + 10;
@@ -33,6 +31,23 @@ console.log(johnBMI);
 const markHigherBMI = marksBMI > johnBMI;
 console.log(markHigherBMI);
 
+age = 18;
 if ((age = 18)) {
-  console.log();
+  console.log("you are an adult");
 }
+/*const best = prompt("What is your best number");
+console.log(best);*/
+
+const yeah = 20;
+yeah >= 18
+  ? console.log("You can drink")
+  : console.log("i like something else");
+
+//Fruit processor function
+function fruitprocessor(apple, oranges) {
+  console.log(apple, oranges);
+  const juice = ` Juice with &{apple} apples and &{oranges} oranges`;
+  return juice;
+}
+const applejuice = fruitprocessor(5, 0);
+console.log(applejuice);
